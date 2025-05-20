@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rancho Grande FC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #004d00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #007300;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background-color: #007300;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #004d00;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rancho Grande FC</h1>
+    <p>Pasión, formación y fútbol de corazón</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenidos a Rancho Grande FC</h2>
+    <p>Rancho Grande FC es más que un club: es una familia que crece con el balón en los pies y el corazón en cada jugada. Formamos personas, forjamos sueños y vivimos el fútbol con pasión.</p>
+  </section>
+
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Con años de experiencia en el desarrollo de talento local, nuestro compromiso es guiar a las nuevas generaciones con disciplina, respeto y amor por el juego. Ofrecemos entrenamientos para distintas categorías y fomentamos valores dentro y fuera de la cancha.</p>
+  </section>
+
+  <section id="galeria" class="gallery">
+    <h2>Galería</h2>
+    <img src="imagen1.jpg" alt="Jugadores entrenando" />
+    <img src="imagen2.jpg" alt="Partido local" />
+    <img src="imagen3.jpg" alt="Celebración de gol" />
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📍 Ubicación: Tu dirección aquí</p>
+    <p>📞 Teléfono: 000-000-0000</p>
+    <p>📧 Email: contacto@ranchograndefc.com</p>
+    <p>📱 Síguenos en redes sociales: @RanchoGrandeFC</p>
+
+    <h3>Formulario de Registro</h3>
+    <form name="registro" method="POST" data-netlify="true">
+      <input type="text" name="nombre" placeholder="Nombre completo" required>
+      <input type="email" name="email" placeholder="Correo electrónico" required>
+      <input type="text" name="telefono" placeholder="Teléfono de contacto" required>
+      <textarea name="mensaje" placeholder="Cuéntanos más (edad, categoría, etc.)" rows="4"></textarea>
+      <button type="submit">Enviar registro</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rancho Grande FC. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
